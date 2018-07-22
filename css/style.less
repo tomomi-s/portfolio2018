@@ -1,0 +1,256 @@
+
+/*typography*/
+@fisrt-font: 'Questrial', sans-serif;
+@second-font: 'Julius Sans One', sans-serif;
+
+/*color*/
+@first-color: #aad3df;
+@second-color: #ffb9b5;
+@second-color-light: #ffb9b585; 
+@third-color: #5bb5b3;
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-family: @fisrt-font;
+
+    a{
+		text-decoration: none;
+	}
+}
+
+
+
+#header{
+	a{
+		color: @second-color;
+		text-decoration: none;
+	}
+	
+	display: flex;
+	margin: 10px;
+	img{
+		width: 50px;
+		height: 50px;
+	}
+	#name{
+		font-family: @second-font;
+    	font-size: 1.8em;
+    	padding: 13px 10px;
+	}
+	#link{
+		padding-top: 11px;
+    	padding-bottom: 11px;
+    	position: absolute;
+    	right: 10px;
+		.icon{
+			color: @second-color;
+			padding: 0 4px;
+		}
+	}
+}
+
+#top{
+	display: flex;
+	.title{
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		.title-back{
+			height: 60vh;
+		}
+		.title-p{
+			color: #fff;
+			font-size: 2.5em;
+		}
+		
+		
+	}
+	#title1{
+		.title1-back1{
+			background-color: @third-color;
+		    transform: rotate(-120deg);
+		    width: 100%;
+		}
+		#title1-p{
+			position: absolute;
+			top: 30vh;
+			left: 30%;
+		}
+	}
+	#title2{
+		#title2-back{
+			background-color: @first-color;
+			transform: rotate(60deg);
+    		width: 100%;
+		}
+		#title2-p{
+			position: absolute;
+			top: 30vh;
+    		right: 50%;
+		}
+
+	}
+}
+#contents{
+	display: flex;
+	a{
+		width: 100%;
+		.content{
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+
+			
+			.content-back{
+				// background-color: @second-color;
+				height: 30vh;
+			}
+			.content-back1{
+				background-color: @second-color;
+			}
+			.content-back2{
+				background-color:#ffb9b585;
+			}
+			.content-title{
+				font-family: @second-font;
+				color: #fff;
+				font-size: 1.9em;
+				position: absolute;
+			    top: 15%;
+			    right: 10%;
+			    .content-title1{
+			    	text-align: right;
+			    }
+			    .content-title2{
+			    	font-size: 0.75em;
+			    	text-align: right;
+			    }
+			}
+
+			.overlay {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				background-size: cover;
+			    background-repeat: no-repeat;
+			    background-position: 50% 50%;
+				transition: .6s ease;
+
+			}
+			.overlay1{
+				background-image: url("../img/head/works.jpg");
+			    
+			}
+			.overlay2{
+				background-image: url("../img/head/works2.jpeg");
+			    
+			}
+			.overlay3{
+				background-image: url("../img/head/about.jpg");
+			    
+			}
+			.overlay4{
+				background-image: url("../img/head/contact.jpg");
+			    
+			}
+
+			
+
+		}
+		.content:hover .overlay1, .content:hover .overlay3 {
+			  opacity: 0.5;
+			}
+		.content:hover .overlay2, .content:hover .overlay4 {
+			  opacity: 0.4;
+			}
+		
+	}
+}
+
+#footer{
+	color: @second-color;
+	font-family: @fisrt-font;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/////////////////////////
+///// general codes /////
+/////////////////////////
+
+// slide animation
+@keyframes slideinRight {
+            from {
+                left:-100%;
+            }
+
+            to {
+                left: 0%;
+            }
+        }
+
+@keyframes slideinLeft {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+// slideshow
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slide-img{
+	width: 100%;
+	height: 250px;
+	position: relative;
+
+	img{
+		position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    height: auto;
+	    width: auto;
+	    max-width: 100%;
+	    max-height: 100%;
+	    margin: auto;
+	}
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 6px;
+  width: 6px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+@import "/works.less";

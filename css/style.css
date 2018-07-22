@@ -1,0 +1,418 @@
+/*typography*/
+/*color*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000312}}
+* {
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000316}}
+body {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  font-family: 'Questrial', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000322}}
+body a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000329}}
+#header {
+  display: flex;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000330}}
+#header a {
+  color: #ffb9b5;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000337}}
+#header img {
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000341}}
+#header #name {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.8em;
+  padding: 13px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000346}}
+#header #link {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  position: absolute;
+  right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000351}}
+#header #link .icon {
+  color: #ffb9b5;
+  padding: 0 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000358}}
+#top {
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000360}}
+#top .title {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000364}}
+#top .title .title-back {
+  height: 60vh;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000367}}
+#top .title .title-p {
+  color: #fff;
+  font-size: 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000375}}
+#top #title1 .title1-back1 {
+  background-color: #5bb5b3;
+  transform: rotate(-120deg);
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000380}}
+#top #title1 #title1-p {
+  position: absolute;
+  top: 30vh;
+  left: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000387}}
+#top #title2 #title2-back {
+  background-color: #aad3df;
+  transform: rotate(60deg);
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\0000392}}
+#top #title2 #title2-p {
+  position: absolute;
+  top: 30vh;
+  right: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003100}}
+#contents {
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003102}}
+#contents a {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003104}}
+#contents a .content {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003110}}
+#contents a .content .content-back {
+  height: 30vh;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003114}}
+#contents a .content .content-back1 {
+  background-color: #ffb9b5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003117}}
+#contents a .content .content-back2 {
+  background-color: #ffb9b585;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003120}}
+#contents a .content .content-title {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
+  font-size: 1.9em;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003127}}
+#contents a .content .content-title .content-title1 {
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003130}}
+#contents a .content .content-title .content-title2 {
+  font-size: 0.75em;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003136}}
+#contents a .content .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: .6s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003151}}
+#contents a .content .overlay1 {
+  background-image: url("../img/head/works.jpg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003155}}
+#contents a .content .overlay2 {
+  background-image: url("../img/head/works2.jpeg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003159}}
+#contents a .content .overlay3 {
+  background-image: url("../img/head/about.jpg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003163}}
+#contents a .content .overlay4 {
+  background-image: url("../img/head/contact.jpg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003171}}
+#contents a .content:hover .overlay1,
+#contents a .content:hover .overlay3 {
+  opacity: 0.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003174}}
+#contents a .content:hover .overlay2,
+#contents a .content:hover .overlay4 {
+  opacity: 0.4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003181}}
+#footer {
+  color: #ffb9b5;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+@keyframes slideinRight {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003194}}
+  from {
+    left: -100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003198}}
+  to {
+    left: 0%;
+  }
+}
+@keyframes slideinLeft {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003204}}
+  from {
+    left: 100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003208}}
+  to {
+    left: 0%;
+  }
+}
+/* Slideshow container */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003215}}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003221}}
+.slide-img {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003226}}
+.slide-img img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003241}}
+.dot {
+  height: 6px;
+  width: 6px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/style\.less}line{font-family:\00003251}}
+.active {
+  background-color: #717171;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\000032}}
+#sub-header .title-wrapper {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\000039}}
+#sub-header .title-wrapper #title {
+  font-size: 24px;
+  color: #fff;
+  padding-left: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000315}}
+#sub-header #title-wrapper-wd {
+  background-color: #5bb5b3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000319}}
+#sub-header #title-wrapper-writer {
+  background-color: #aad3df;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000324}}
+#works {
+  /* Modal */
+  /* The Modal (background) */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000326}}
+#works .work {
+  display: flex;
+  height: 45vh;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000330}}
+#works .work:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  border: 3px solid #5bb5b3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000338}}
+#works .work .work-left {
+  width: 50%;
+  position: relative;
+  animation-duration: 1s;
+  animation-name: slideinRight;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000345}}
+#works .work .work-right {
+  width: 50%;
+  position: relative;
+  animation-duration: 1s;
+  animation-name: slideinLeft;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000353}}
+#works .work .work-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000358}}
+#works .work .work-title h1 {
+  font-weight: 500;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000363}}
+#works .work .work-title .skill-icons i {
+  font-size: 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000369}}
+#works .work .work-title-left {
+  padding-right: 30px;
+  align-items: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000374}}
+#works .work .work-title-right {
+  padding-left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000379}}
+#works .work .work-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000385}}
+#works .work .work-img-1 {
+  background-image: url("../img/works/awesome-pj-1.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000389}}
+#works .work .work-img-2 {
+  background-image: url("../img/works/whyholland.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000393}}
+#works .work .work-img-3 {
+  background-image: url("../img/works/Rezidence Zalanskeho.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\0000397}}
+#works .work .work-img-4 {
+  background-image: url("../img/works/Shoah Legacy.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003101}}
+#works .work .work-img-5 {
+  background-image: url("../img/works/Sportemu.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003110}}
+#works .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 8888;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #000000;
+  /* Fallback color */
+  background-color: rgba(130, 154, 205, 0.6);
+  /* Black w/ opacity */
+  /* Modal Content/Box */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003130}}
+#works .modal .modal-content {
+  background-color: #ffffff;
+  margin: 10vh auto;
+  padding: 20px;
+  width: 60%;
+  /* The Close Button */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003136}}
+#works .modal .modal-content .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003140}}
+#works .modal .modal-content .close:hover,
+#works .modal .modal-content .close :focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003146}}
+#works .modal .modal-content .modal-content-wrapper {
+  padding: 30px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003149}}
+#works .modal .modal-content .modal-content-wrapper .modal-title {
+  font-size: 20px;
+  border-bottom: 1px solid #5bb5b3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003153}}
+#works .modal .modal-content .modal-content-wrapper .modal-visit-btn {
+  padding: 5px 30px;
+  background-color: #5bb5b3;
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003165}}
+#works .slide-img-work-wd-3-1 {
+  background-image: url("../img/works/Rezidence Zalanskeho.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003169}}
+#works .slide-img-work-wd-3-2 {
+  background-image: url("../img/works/Rezidence Zalanskeho2.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomomisuda\/www\/codingbootcamp\/portfolio2018\/css\/works\.less}line{font-family:\00003173}}
+#works .slide-img-work-wd-3-3 {
+  background-image: url("../img/works/Rezidence Zalanskeho3.png");
+}
