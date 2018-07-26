@@ -1,0 +1,65 @@
+#about{
+
+	#intro{
+		height: 60vh;
+		position: relative;
+		.intro-img{
+			height: 100%;
+			background-image: url("../img/head/about2.jpg");
+			background-attachment: fixed;
+		    background-position: 50% 70%;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}
+		.intro-p{
+			position: absolute;
+		    top: 60%;
+		    left: 25%;
+		    width: 50%;
+		    background-color: @first-color;
+		    // background-color: rgba(170, 211, 223, 0.9);
+		    text-align: center;
+		    font-size: 1.2em;
+		    color: #fff;
+		    padding-right: 30px;
+		    padding-left: 30px;
+
+		    h2{
+		    	font-family: @second-font;
+		    }
+		}
+
+	}
+	#skills{
+		// margin: 150px 20px 0 20px;
+		width: 70%;
+		margin: 150px auto 0 auto;
+		h1{
+			font-family: @second-font;
+		}
+
+		.skill{
+			margin: 20px 0 80px 0;
+			h2{
+				width: 30%;
+				border-bottom: 2px solid @third-color;
+			}
+
+
+			.skill-icons{
+				width: 90%;
+				margin: auto;
+				display: flex;
+			    flex-wrap: wrap;
+			    align-items: center;
+			    justify-content: center;
+				i{
+					font-size: 5em;
+					margin: 15px;
+				}
+			}
+
+		}
+
+	}
+}

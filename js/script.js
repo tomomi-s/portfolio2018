@@ -1,3 +1,87 @@
+var articles = [
+	// {
+	// 	"href": "" ,
+	// 	"datatype": "university",
+	// 	"src": "img/works/article/8.png"
+	// },
+	// {
+	// 	"href": "" ,
+	// 	"datatype": "university",
+	// 	"src": "img/works/article/15.png"
+	// },
+	{
+		"href": "" ,
+		"datatype": "prague",
+		"src": "img/works/article/14.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "prague",
+		"src": "img/works/article/13.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "prague",
+		"src": "img/works/article/12.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "prague",
+		"src": "img/works/article/11.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "prague",
+		"src": "img/works/article/10.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "university",
+		"src": "img/works/article/9.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "university",
+		"src": "img/works/article/8.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "university",
+		"src": "img/works/article/7.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "university",
+		"src": "img/works/article/6.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "interview",
+		"src": "img/works/article/5.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "university",
+		"src": "img/works/article/4.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "interview",
+		"src": "img/works/article/3.png"
+	},
+	{
+		"href": "interview" ,
+		"datatype": "accommodation",
+		"src": "img/works/article/2.png"
+	},
+	{
+		"href": "" ,
+		"datatype": "university",
+		"src": "img/works/article/1.png"
+	},
+]
+
+
 /////// typeWriter ///////
 function typeWriter(text, n) {
   	if (n < (text.length)) { 	
@@ -9,7 +93,7 @@ function typeWriter(text, n) {
   	}
 }
 
-/////// slideIn ///////
+/////// slideIn animation///////
 function slideInRight(){
   	$('.slideRight').addClass('work-left');
 }
@@ -17,6 +101,8 @@ function slideInRight(){
 function slideInLeft(){
   	$('.slideLeft').addClass('work-right');
 }
+
+
 
 
 /////// slideshow ///////
@@ -59,7 +145,10 @@ function showSlides(modal_id) {
 	interval = setInterval(update, 3000);
 
 
+
+
 }
+
 
 /////// modal ///////
 function modal(){
@@ -97,6 +186,66 @@ function modal(){
 	  }
 	}
 }
+
+
+/////// sorting image ///////
+function sortImage(){
+	$(".articles-nav li").click(function(e){
+
+      // 1. store data-type attribute
+      var category = $(this).attr("data-type"); 
+      console.log(category);
+
+      // 2. hide all matched elements
+      $('.article-objects').empty();
+
+      // 3. if 'color' is not defined hide/show all elements ("show all" button), if color IS defined show elemtnts that match color variable
+
+      //show all
+      if(!category){
+      	$('.article-objects').empty();
+      	showArticles(articles);
+      //show the articles in the category
+      }else{
+      	//find articles with the category
+      	var a = articles.filter(function(article){
+      		return article.datatype == category
+      	});
+      	showArticles(a);  
+      }
+
+      // classes for nav buttons
+      $('.active').removeClass('active'); 
+      $(this).addClass('active'); 
+
+      e.preventDefault();
+
+    });
+
+
+}
+
+/////// Store articles and output ///////
+function showArticles(articles){
+	articles.forEach(function(article){
+		$('.article-objects').append(
+	'<a href="' + article.href + '" data-type="' + article.datatype + '" target="blank">\
+	    <div class="item">\
+	        <img src="' + article.src + '">\
+	        <span class="hover-color"></span>\
+	    </div>\
+	</a>'
+	);
+	});
+}
+
+
+
+
+
+   	  
+
+
 
 
 

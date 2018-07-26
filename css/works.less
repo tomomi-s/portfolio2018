@@ -1,26 +1,3 @@
-#sub-header{
-	.title-wrapper{
-		width: 100%;
-		height: 40px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-
-		#title{
-			font-size: 24px;
-			color: #fff;
-			padding-left: 3px;
-		}
-	}
-	#title-wrapper-wd{
-		background-color: @third-color;
-	}
-
-	#title-wrapper-writer{
-		background-color: @first-color;
-	}
-}
-
 #works{
 
 	.work{
@@ -79,99 +56,146 @@
 		.work-img{	
 			background-size: cover;
 			background-repeat: no-repeat;
-			background-position: 50% 50%;
+			background-position: 50% 30%;
 		}
 
-		.work-img-1{
-			background-image: url("../img/works/awesome-pj-1.png");
-		}
-
-		.work-img-2{
-			background-image: url("../img/works/whyholland.png");
-		}
-
-		.work-img-3{
-			background-image: url("../img/works/Rezidence Zalanskeho.png");
-		}
-
-		.work-img-4{
-			background-image: url("../img/works/Shoah Legacy.png");
-		}
-
-		.work-img-5{
-			background-image: url("../img/works/Sportemu.png");
-		}
+		
 
 		
 	}
 
-    /* Modal */
-    /* The Modal (background) */
-    .modal {
-        display: none;
-        /* Hidden by default */
-        position: fixed;
-        /* Stay in place */
-        z-index: 8888;
-        /* Sit on top */
-        left: 0;
-        top: 0;
-        width: 100%;
-        /* Full width */
-        height: 100%;
-        /* Full height */
-        overflow: auto;
-        /* Enable scroll if needed */
-        background-color: rgb(0, 0, 0);
-        /* Fallback color */
-        background-color: rgba(130, 154, 205, 0.6);
-        /* Black w/ opacity */
-        /* Modal Content/Box */
-        .modal-content {
-            background-color: #ffffff;
-            margin: 10vh auto;
-            padding: 20px;
-            width: 60%;
-            /* The Close Button */
-            .close {
-                color: #aaa;
-                float: right;
-                font-size: 28px;
-                &:hover, :focus {
-                    color: black;
-                    text-decoration: none;
-                    cursor: pointer;
-                }
-            }
-            .modal-content-wrapper {
-                padding: 30px 20px;
-                
-                .modal-title {
-                    font-size: 20px;
-                    border-bottom: 1px solid @third-color;
-                }
-                .modal-visit-btn {
-                    padding: 5px 30px;
-                    background-color: @third-color;
-                    color: #fff;
-                    font-family: @second-font;
-                }
-            }
+	.work-wd{
+		&:hover {
+            border: 3px solid @third-color;
         }
-    }
 
+        .work-img-5{
+			background-image: url("../img/works/awesome-pj-1.png");
+		}
 
+		.work-img-4{
+			background-image: url("../img/works/whyholland.png");
+			background-position: 50% 50%;
+		}
 
-	.slide-img-work-wd-3-1{
-		background-image: url("../img/works/Rezidence Zalanskeho.png");
+		.work-img-3{
+			background-image: url("../img/works/Rezidence Zalanskeho.png");
+			background-position: 50% 10%;
+		}
+
+		.work-img-2{
+			background-image: url("../img/works/Shoah Legacy.png");
+			background-position: 50% 10%;
+		}
+
+		.work-img-1{
+			background-image: url("../img/works/Sportemu.png");
+		}
+
 	}
 
-	.slide-img-work-wd-3-2{
-		background-image: url("../img/works/Rezidence Zalanskeho2.png");
+	.work-writer{
+		&:hover {
+            border: 3px solid @first-color;
+        }
+
+        .work-img-1{
+			background-image: url("../img/works/GFJ.png");
+			background-position: 50% 15%;
+		}
+
 	}
 
-	.slide-img-work-wd-3-3{
-		background-image: url("../img/works/Rezidence Zalanskeho3.png");
+
+
+}
+
+#showcase{
+	width: 90%;
+	margin: 0 auto;
+
+	
+	/*------ img sorting  ------*/
+	.articles-nav {
+		padding: 0;
+		width: 100%;
+		margin: 50px 0 25px 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		li {
+		  margin-right: 10px; 
+		  margin-bottom: 10px;  
+		  font-size: 13px;
+		  list-style: none;
+		  background: rgba(0,0,0,.25);
+		  padding: 4px 15px;
+		  border-radius: 20px;
+		  cursor: pointer;
+		  color: #fff;
+		  // box-shadow: 0 1px 3px rgba(0,0,0,.3);
+		  -webkit-transition: background .25s ease;
+		  &:hover{
+		  	background: @first-color;
+		  	opacity: 0.4;
+		  }
+		  &:last-child{
+		  	background: rgba(0,0,0,.6);
+		  }
+		}
+	}
+	.articles-nav .active, .articles-nav .active:hover {
+	  background-color: @first-color !important;
+	  opacity: 1;
+	}
+
+	.article-objects{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+
+		a{
+		animation: fadein 1.0s ease-in 0s 1 forwards;
+		opacity: 0;
+	  	.delay-animation(@numitems, @delay);
+	  	
+
+		  	.item {
+			  overflow: hidden;
+			  padding: 0;
+			  margin: 3px;
+			  width: 200px;
+			  height: 200px;
+			  list-style: none;
+			  transition: all .25s ease;
+
+			  img{
+			  	height: 100%;
+			    position: relative;
+			    left: -25%;
+			  }
+
+			}
+
+			.hover-color{
+				background-color: rgba(170, 211, 223, 0.5);
+				display: none;
+				position: relative;
+				width: 200px;
+				height: 200px;
+				bottom: 203px;
+				margin-bottom: -200px;
+			}
+			
+		}
+
+		a:hover .hover-color{
+			display: block;
+		}	
+
 	}
 }
+
+
 
