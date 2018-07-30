@@ -16,14 +16,15 @@
             <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div id="header">
-            <a href="">
-                <img src="img/logo.png" alt="logo">
-            </a>
-            <a href="">
-                <div id="name">Tomomi Suda</div>
-            </a>
-            <div id="link">
+        <div id="mySidenav" class="sidenav">
+              <div class="closebtn">&times;</div>
+              <a class="nav-menu" href="index.html">Home</a>
+              <a class="nav-menu" href="works_wd.html">Web developer</a>
+              <a class="nav-menu" href="works_writer.html">Writer</a>
+              <a class="nav-menu" href="about.html">About</a>
+              <a class="nav-menu" href="contact.html">Contact</a>
+
+              <div id="link" class="nav-menu">
                 <a class="icon" href="https://www.linkedin.com/in/tomomi-suda" target="blank">
                     <i class="fab fa-linkedin-in fa-2x"></i>
                 </a>
@@ -31,6 +32,20 @@
                     <i aria-hidden="true" class="fab fa-github fa-2x"></i>
                 </a>
             </div>
+        </div>
+
+        <div id="header">
+            <a id="header-logo" href="index.html">
+                <img src="img/logo.png" alt="logo">
+                <div id="name">Tomomi Suda</div>
+            </a>
+
+            <div id="navBtn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+   
         </div>
 
         <div id="sub-header">
@@ -41,7 +56,15 @@
 
 
 
+
         <div id="showcase">
+            <p>Writing web content in Japanese. Interviewing in English, promoting restaurants/cafes, accommodations and universities, summarizing English documents, reporting travel experience (including doing the photography)</p>
+
+            <div class="line"></div>
+
+            
+
+            <h2>Category</h2>
             <ul class="articles-nav">
               <li data-type="interview">Interview</li>
               <li data-type="university">University</li>
@@ -58,75 +81,6 @@
             </div>
         </div>
 
-                <div id="works">
-        
-            <div class="work work-writer modal-btn" data-modal="modal-1">
-                <div class="slideRight work-title work-title-left">
-                    <h1>Good Friends Japan</h1>
-                    <p>Blog website to share experience abroad</p>
-                </div>
-
-                <div class="slideLeft work-img work-img-1"></div>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal" id="modal-1">
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <a class="close">
-                        ×
-                    </a>
-                    <div class="modal-content-wrapper">
-                        <p class="modal-title">
-                            Good Friends Japan
-                        </p>
-
-                            <!-- Slideshow -->
-                            <div class="slideshow-container">
-
-                            <div class="mySlides">
-                                <div class="slide-img">
-                                    <img  src="img/works/GFJ.png">
-                                    <p>Home</p>
-                                </div>
-                            </div>
-
-                            <div class="mySlides">
-                                <div class="slide-img">
-                                    <img src="img/works/GFJ2.png">
-                                    <p>Interview</p>
-
-                                </div>
-                            </div>
-
-                            <div class="mySlides">
-                                <div class="slide-img">
-                                    <img src="img/works/whyholland3.png">
-                                    <p>Home</p>
-                                </div>
-
-                            </div>
-
-                            </div>
-                            <br>
-
-                            <div style="text-align:center">
-                              <span class="dot"></span> 
-                              <span class="dot"></span> 
-                              <span class="dot"></span> 
-                            </div>
-                            
-                        <p>
-                            Blog website to share experience abroad<br>
-                            - Questionnaire form
-                        </p>
-                        <a class="modal-visit-btn" href="http://whyholland.com/" target="_blank">
-                            Visit
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
 

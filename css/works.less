@@ -1,5 +1,22 @@
 #works{
 
+	.work-mobile{
+		display: none;
+	}
+
+	.work-intro{
+		width: 90%;
+		margin: 0 auto 20px auto;
+		p{
+		color: #9999;
+		margin: 25px 0;
+		}
+
+		
+	}
+
+	
+
 	.work{
 		display: flex;
 		height: 45vh;
@@ -31,6 +48,7 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			padding: 0 30px;
 
 			h1{
 				font-weight: 500;
@@ -43,31 +61,49 @@
 			}
 		}		
 
-		.work-title-left{
-			padding-right: 30px;
+		.work-title-left{			
 			align-items: flex-end;
 		}
 
 		.work-title-right{
-			padding-left: 30px;
+			// padding-left: 30px;
 			// align-items: flex-end;
 		}
 
-		.work-img{	
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: 50% 30%;
-		}
+		
 
 		
 
 		
 	}
 
-	.work-wd{
+	
+	.work-writer{
 		&:hover {
-            border: 3px solid @third-color;
+            border: 3px solid @first-color;
         }
+
+        .work-img-1{
+			background-image: url("../img/works/GFJ.png");
+			background-position: 50% 15%;
+		}
+
+	}
+
+
+
+}
+
+.work-img{	
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: 50% 30%;
+		}
+
+.work-wd{
+		// &:hover {
+  //           border: 3px solid @third-color;
+  //       }
 
         .work-img-5{
 			background-image: url("../img/works/awesome-pj-1.png");
@@ -94,32 +130,34 @@
 
 	}
 
-	.work-writer{
-		&:hover {
-            border: 3px solid @first-color;
-        }
-
-        .work-img-1{
-			background-image: url("../img/works/GFJ.png");
-			background-position: 50% 15%;
-		}
-
-	}
-
-
-
-}
 
 #showcase{
 	width: 90%;
-	margin: 0 auto;
+	margin: auto;
+
+	p{
+		color: #9999;
+		margin: 25px 0;
+	}
+
+	.line{
+		width: 50%;
+		margin: auto;
+		border: 1px solid @first-color;
+	}
+
+	h2{
+		text-align: center;
+		color: @first-color;
+
+	}
 
 	
 	/*------ img sorting  ------*/
 	.articles-nav {
 		padding: 0;
 		width: 100%;
-		margin: 50px 0 25px 0;
+		margin: 0 0 25px 0;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
@@ -195,6 +233,95 @@
 		}	
 
 	}
+}
+
+//mobile version for wd
+@media screen and (max-width: 991px){
+	#works{
+		.work{
+			.work-title{
+				.skill-icons{
+					i{
+						font-size: 2em;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px){
+	#works{
+		.work{
+			display: none;
+		}
+		.work-mobile{
+			display: block;
+			width: 90%;
+    		margin: auto;
+			&:hover{
+				cursor: pointer;
+	            opacity: 0.5;
+			}
+			.img-wrapper{
+				margin-top: 30px;
+				position: relative;
+
+				h3{
+					position: absolute;
+				    top: 70%;
+				    background-color: @third-color;
+				    max-width: 80%;
+				    min-width: 40%;
+				    padding: 7px 10px 7px 7px;
+				    color: #fff;
+				}
+
+				.work-img{
+				height: 45vh;
+				-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+				-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+				box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+				}
+			}
+			.dcp-wrapper{
+				margin: 0 15px;
+				.skill-icons{
+					font-size: 1.5em;
+				}
+			}
+
+			.border-bottom{
+				border-bottom: 2px solid @third-color;
+				width: 50%;
+				margin: 25px auto;
+			}
+			
+
+			
+
+		}
+	}
+
+	//mobile version for writer
+	#showcase{
+		margin: 10px auto;
+		.articles-nav{
+			margin: 0 0 10px 0;
+		}
+		.article-objects{
+			a {
+				.item{
+					width:90px;
+					height: 90px;
+				}
+			}
+			
+		}
+			
+			
+	}
+
 }
 
 

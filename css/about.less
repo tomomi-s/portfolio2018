@@ -1,35 +1,6 @@
 #about{
 
-	#intro{
-		height: 60vh;
-		position: relative;
-		.intro-img{
-			height: 100%;
-			background-image: url("../img/head/about2.jpg");
-			background-attachment: fixed;
-		    background-position: 50% 70%;
-		    background-repeat: no-repeat;
-		    background-size: cover;
-		}
-		.intro-p{
-			position: absolute;
-		    top: 60%;
-		    left: 25%;
-		    width: 50%;
-		    background-color: @first-color;
-		    // background-color: rgba(170, 211, 223, 0.9);
-		    text-align: center;
-		    font-size: 1.2em;
-		    color: #fff;
-		    padding-right: 30px;
-		    padding-left: 30px;
-
-		    h2{
-		    	font-family: @second-font;
-		    }
-		}
-
-	}
+	
 	#skills{
 		// margin: 150px 20px 0 20px;
 		width: 70%;
@@ -63,3 +34,27 @@
 
 	}
 }
+
+@media screen and (max-width: 425px){
+	#about{
+		#skills{
+	    	width: 80%;
+    		margin: 120px auto 0 auto;
+    		.skill{
+    			h2{
+    				width: 90%;
+				}
+    			.skill-icons{
+    				width: 100%;
+
+    				i{
+					font-size: 3em;
+					margin: 10px;
+					}
+    			}
+    			
+    		}
+    	}
+	}
+}
+

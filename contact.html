@@ -16,14 +16,15 @@
             <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div id="header">
-            <a href="">
-                <img src="img/logo.png" alt="logo">
-            </a>
-            <a href="">
-                <div id="name">Tomomi Suda</div>
-            </a>
-            <div id="link">
+        <div id="mySidenav" class="sidenav">
+              <div class="closebtn">&times;</div>
+              <a class="nav-menu" href="index.html">Home</a>
+              <a class="nav-menu" href="works_wd.html">Web developer</a>
+              <a class="nav-menu" href="works_writer.html">Writer</a>
+              <a class="nav-menu" href="about.html">About</a>
+              <a class="nav-menu" href="contact.html">Contact</a>
+
+              <div id="link" class="nav-menu">
                 <a class="icon" href="https://www.linkedin.com/in/tomomi-suda" target="blank">
                     <i class="fab fa-linkedin-in fa-2x"></i>
                 </a>
@@ -33,20 +34,53 @@
             </div>
         </div>
 
+        <div id="header">
+            <a id="header-logo" href="index.html">
+                <img src="img/logo.png" alt="logo">
+                <div id="name">Tomomi Suda</div>
+            </a>
+
+            <div id="navBtn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+   
+        </div>
+
         <div id="sub-header">
             <div id="title-wrapper-about" class="title-wrapper">
                 <div id="title" data-text="Contact"></div> 
             </div>
         </div>
 
-
-
         <div id="contact">
-            <div>
-                
-            </div>
-            
+            <div id="intro">
+                <div class="intro-img"></div>
+                <div class="intro-p">
+                    <h2>Get in touch</h2>
+                    <form action="https://formspree.io/info@tomomi.nl" method="POST">
+                        <div class="input-wrapper">
+                            <p>Name</p>
+                            <input type="text" name="name" required>
+                        </div>
 
+                        <div class="input-wrapper">
+                            <p>Email</p>
+                            <input type="email" name="email" required> 
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <p>Message</p>
+                            <textarea name="message" required></textarea>
+                        </div>
+
+                        <div class="btn-wrapper">
+                            <input class="send-btn" type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
                 

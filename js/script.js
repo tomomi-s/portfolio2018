@@ -1,86 +1,247 @@
 var articles = [
-	// {
-	// 	"href": "" ,
-	// 	"datatype": "university",
-	// 	"src": "img/works/article/8.png"
-	// },
-	// {
-	// 	"href": "" ,
-	// 	"datatype": "university",
-	// 	"src": "img/works/article/15.png"
-	// },
+// {
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/46.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/45.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/44.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/43.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/42.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/41.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/40.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/39.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/38.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/37.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/36.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/35.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/34.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/33.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/32.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/31.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/30.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/29.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/28.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/27.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/26.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/25.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/24.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/23.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/22.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/21.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/20.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/19.png"
+// 	},
+// 	{
+// 		"href": "" ,
+// 		"datatype": "university",
+// 		"src": "img/works/article/18.png"
+// 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/1152" ,
+		"datatype": "food",
+		"src": "img/works/article/17.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1067" ,
+		"datatype": "food",
+		"src": "img/works/article/16.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/989" ,
+		"datatype": "prague",
+		"src": "img/works/article/15.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/901" ,
 		"datatype": "prague",
 		"src": "img/works/article/14.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/877" ,
 		"datatype": "prague",
 		"src": "img/works/article/13.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/842" ,
 		"datatype": "prague",
 		"src": "img/works/article/12.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/825" ,
 		"datatype": "prague",
 		"src": "img/works/article/11.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/788" ,
 		"datatype": "prague",
 		"src": "img/works/article/10.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/746" ,
 		"datatype": "university",
 		"src": "img/works/article/9.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/724" ,
 		"datatype": "university",
 		"src": "img/works/article/8.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/706" ,
 		"datatype": "university",
 		"src": "img/works/article/7.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/635" ,
 		"datatype": "university",
 		"src": "img/works/article/6.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/541" ,
 		"datatype": "interview",
 		"src": "img/works/article/5.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/476" ,
 		"datatype": "university",
 		"src": "img/works/article/4.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/258" ,
 		"datatype": "interview",
 		"src": "img/works/article/3.png"
 	},
 	{
-		"href": "interview" ,
+		"href": "http://www.goodfriends.jp/village/archives/266" ,
 		"datatype": "accommodation",
 		"src": "img/works/article/2.png"
 	},
 	{
-		"href": "" ,
+		"href": "http://www.goodfriends.jp/village/archives/193" ,
 		"datatype": "university",
 		"src": "img/works/article/1.png"
 	},
 ]
 
+/////// Slide nav ///////
+$('#navBtn').click(function(){
+	$("#mySidenav").css("width", "250px");
+});
+$('.closebtn').click(function(){
+	$("#mySidenav").css("width", "0px");
+});
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 
 /////// typeWriter ///////
 function typeWriter(text, n) {
