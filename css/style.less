@@ -18,6 +18,8 @@ body{
     font-size: 14px;
     color: #333;
     font-family: @fisrt-font;
+    // position: relative;
+    min-height: 100%;
 
     a{
 		text-decoration: none;
@@ -199,10 +201,21 @@ body{
 }
 
 #footer{
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	color: @second-color;
 	font-family: @fisrt-font;
 	text-align: center;
 	padding-top: 10px;
+
+	.logoMkr{
+		font-size: 0.7em;
+		a{
+			color:@second-color;
+		}
+	}
 }
 
 @media screen and (max-width: 768px){
@@ -352,7 +365,6 @@ body{
 		    left: 25%;
 		    width: 50%;
 		    background-color: @first-color;
-		    // background-color: rgba(170, 211, 223, 0.9);
 		    text-align: center;
 		    font-size: 1.2em;
 		    color: #fff;
@@ -364,30 +376,32 @@ body{
 		    }
 		}
 
+
+	@media screen and (max-width: 768px){
+		.intro-p{
+			left: 15%;
+			width: 70%;
+		}    	
 	}
 
-@media screen and (max-width: 768px){
-    #intro{
-		.intro-p{
-	    	left: 15%;
-    		width: 70%;
-    	}
-	}
-}
 
-
-@media screen and (max-width: 425px){
-	#intro{
-		.intro-p{
+	@media screen and (max-width: 425px){
+	.intro-p{
 	    top: 50%;
 	    left: 7%;
 	    width: 86%;
 	    font-size: 1em;
 	    padding-right: 10px;
     	padding-left: 10px;
-    	}
 	}
-}
+	}
+
+	}
+
+
+
+
+
 
 
 /*------slide animation ------*/
@@ -532,7 +546,7 @@ body{
   }
 }
 
-@numitems: 20;
+@numitems: 100;
 @delay: 0.1;
 
 // Animation

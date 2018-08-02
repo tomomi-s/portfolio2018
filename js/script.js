@@ -1,149 +1,239 @@
 var articles = [
-// {
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/46.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/45.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/44.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/43.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/42.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/41.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/40.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/39.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/38.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/37.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/36.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/35.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/34.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/33.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/32.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/31.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/30.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/29.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/28.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/27.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/26.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/25.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/24.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/23.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/22.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/21.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/20.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/19.png"
-// 	},
-// 	{
-// 		"href": "" ,
-// 		"datatype": "university",
-// 		"src": "img/works/article/18.png"
-// 	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2902" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/64.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2861" ,
+		"datatype": "food",
+		"src": "img/works/article/63.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2843" ,
+		"datatype": "food",
+		"src": "img/works/article/62.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2832" ,
+		"datatype": "food",
+		"src": "img/works/article/61.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2870" ,
+		"datatype": "food",
+		"src": "img/works/article/60.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2790" ,
+		"datatype": "food",
+		"src": "img/works/article/59.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2821" ,
+		"datatype": "food",
+		"src": "img/works/article/58.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2812" ,
+		"datatype": "food",
+		"src": "img/works/article/57.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2775" ,
+		"datatype": "food",
+		"src": "img/works/article/56.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2757" ,
+		"datatype": "food",
+		"src": "img/works/article/55.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2733" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/54.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2710" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/53.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2681" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/52.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2587" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/51.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2525" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/50.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2458" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/49.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2383" ,
+		"datatype": "food",
+		"src": "img/works/article/48.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2315" ,
+		"datatype": "food",
+		"src": "img/works/article/47.png"
+	},
+{
+		"href": "http://www.goodfriends.jp/village/archives/2361" ,
+		"datatype": "food",
+		"src": "img/works/article/46.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/2331" ,
+		"datatype": "food",
+		"src": "img/works/article/45.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/2272" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/44.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/2173" ,
+		"datatype": "barcelona",
+		"src": "img/works/article/43.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/2153" ,
+		"datatype": "budapest",
+		"src": "img/works/article/42.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/2034" ,
+		"datatype": "budapest",
+		"src": "img/works/article/41.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1980" ,
+		"datatype": "budapest",
+		"src": "img/works/article/40.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1948" ,
+		"datatype": "food",
+		"src": "img/works/article/39.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1932" ,
+		"datatype": "food",
+		"src": "img/works/article/38.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1923" ,
+		"datatype": "food",
+		"src": "img/works/article/37.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1908" ,
+		"datatype": "food",
+		"src": "img/works/article/36.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1895" ,
+		"datatype": "food",
+		"src": "img/works/article/35.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1882" ,
+		"datatype": "food",
+		"src": "img/works/article/34.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1868" ,
+		"datatype": "food",
+		"src": "img/works/article/33.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1837" ,
+		"datatype": "budapest",
+		"src": "img/works/article/32.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1807" ,
+		"datatype": "budapest",
+		"src": "img/works/article/31.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1735" ,
+		"datatype": "budapest",
+		"src": "img/works/article/30.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1699" ,
+		"datatype": "budapest",
+		"src": "img/works/article/29.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1674" ,
+		"datatype": "budapest",
+		"src": "img/works/article/28.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1636" ,
+		"datatype": "budapest",
+		"src": "img/works/article/27.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1560" ,
+		"datatype": "prague",
+		"src": "img/works/article/26.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1538" ,
+		"datatype": "food",
+		"src": "img/works/article/25.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1505" ,
+		"datatype": "food",
+		"src": "img/works/article/24.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1452" ,
+		"datatype": "food",
+		"src": "img/works/article/23.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1405" ,
+		"datatype": "food",
+		"src": "img/works/article/22.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1372" ,
+		"datatype": "food",
+		"src": "img/works/article/21.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1330" ,
+		"datatype": "food",
+		"src": "img/works/article/20.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1318" ,
+		"datatype": "food",
+		"src": "img/works/article/19.png"
+	},
+	{
+		"href": "http://www.goodfriends.jp/village/archives/1296" ,
+		"datatype": "food",
+		"src": "img/works/article/18.png"
+	},
 	{
 		"href": "http://www.goodfriends.jp/village/archives/1152" ,
 		"datatype": "food",

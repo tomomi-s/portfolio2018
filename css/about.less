@@ -30,16 +30,46 @@
 				}
 			}
 
+			.work-link-wrapper{
+				text-align: right;
+				a{
+					color: @third-color;
+					text-decoration: underline;
+				}
+			}
+
+			.writer{
+				margin-top: 20px;
+			}
+
+			
+
 		}
 
 	}
-}
 
-@media screen and (max-width: 425px){
-	#about{
+	@media screen and (max-width: 768px){
+    	.intro-img{
+    		background-attachment: unset;
+    		background-position: 50% -100px;
+		}
+	}
+
+
+	@media screen and (max-width: 425px){
+		#intro{
+	    	height: 50vh;
+
+	    	.intro-img{
+	    		background-attachment: unset;
+    			background-position: 50% -20px;
+			}
+	    }
 		#skills{
 	    	width: 80%;
     		margin: 120px auto 0 auto;
+
+    		
     		.skill{
     			h2{
     				width: 90%;
@@ -54,7 +84,12 @@
     			}
     			
     		}
-    	}
+		}
 	}
+	
 }
+
+
+
+
 
