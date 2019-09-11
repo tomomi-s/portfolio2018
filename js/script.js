@@ -1,5 +1,30 @@
 var articles = [
 {
+		"href": "https://www.goodfriends.jp/village/archives/4670" ,
+		"datatype": "amsterdam",
+		"src": "img/works/article/69.png"
+	},
+{
+		"href": "https://www.goodfriends.jp/village/archives/4602" ,
+		"datatype": "amsterdam",
+		"src": "img/works/article/68.png"
+	},
+{
+		"href": "https://www.goodfriends.jp/village/archives/4380" ,
+		"datatype": "university",
+		"src": "img/works/article/67.png"
+	},
+{
+		"href": "https://www.goodfriends.jp/village/archives/4311" ,
+		"datatype": "university",
+		"src": "img/works/article/66.png"
+	},
+{
+		"href": "https://www.goodfriends.jp/village/archives/4247" ,
+		"datatype": "university",
+		"src": "img/works/article/65.png"
+	},
+{
 		"href": "http://www.goodfriends.jp/village/archives/2902" ,
 		"datatype": "barcelona",
 		"src": "img/works/article/64.png"

@@ -1,3 +1,9 @@
+/*color*/
+@first-color: #aad3df;
+@second-color: #ffb9b5;
+@second-color-light: #ffb9b585; 
+@third-color: #5bb5b3;
+
 #works{
 
 	.work-mobile{
@@ -104,6 +110,13 @@
 		// &:hover {
   //           border: 3px solid @third-color;
   //       }
+		.work-img-9{
+			background-image: url("../img/works/Reciphy1.png");
+		}
+		.work-img-8{
+			background-image: url("../img/works/equi1.png");
+		}
+
   		.work-img-7{
 			background-image: url("../img/works/Mijnklanten1.png");
 		}
@@ -193,6 +206,24 @@
 	.articles-nav .active, .articles-nav .active:hover {
 	  background-color: @first-color !important;
 	  opacity: 1;
+	}
+
+
+	/*------delay animation ------*/
+	@numitems: 100;
+	@delay: 0.1;
+
+
+	.delay-animation(@items, @delay) {
+	  .loopingClass(0); // Start loop
+	  
+	  .loopingClass(@index) when (@index <= @items) {
+	    &:nth-child(@{index}) {
+	        animation-delay: unit((@index * @delay),s);
+	    }
+
+	    .loopingClass(@index + 1); // Increment loop
+	  }
 	}
 
 	.article-objects{
@@ -291,7 +322,7 @@
 				}
 
 				.work-img{
-				height: 45vh;
+				height: 40vh;
 				-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
 				-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
 				box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
